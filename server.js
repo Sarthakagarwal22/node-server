@@ -22,10 +22,6 @@ next();
 });
 
 
-app.use((req,res,next)=>{
-	res.render('maintain.hbs');
-});
-
 app.use(express.static(__dirname + '/public'));
 
 
